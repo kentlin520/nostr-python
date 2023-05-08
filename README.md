@@ -25,7 +25,7 @@ client:
   "sig": <64-bytes hex of the signature of the sha256 hash of the serialized event data, which is the same as the "id" field>
  }
 ```
-simply as -
+simplied as -
 
 ```
 ["EVENT", <event JSON >] :
