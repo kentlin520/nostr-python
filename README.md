@@ -8,7 +8,7 @@ client:
   nostr-watcher : https://relay.nekolicio.us/watcher/
   
 2. Send event (ref protocol)- in json
-
+```
 ["EVENT", <event JSON >] :
 
 {
@@ -24,5 +24,5 @@ client:
   "content": <arbitrary string>,
   "sig": <64-bytes hex of the signature of the sha256 hash of the serialized event data, which is the same as the "id" field>
  }
-  
+```
 3. Disconnect
