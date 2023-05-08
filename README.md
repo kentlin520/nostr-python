@@ -42,3 +42,7 @@ simplied as -
 ```
 
 3. Disconnect
+
+
+Ref:
+https://snyk.io/advisor/npm-package/nostr-tools@0.5.0

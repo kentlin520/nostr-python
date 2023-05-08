@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 
 import time
-import secp256k1
 import json
+import ssl
 import asyncio
 import websockets
-#from hashlib import sha256
+#from nostr.relay_manager import RelayManager
+import secp256k1
+#rom hashlib import sha256
 #from nostr.key import PrivateKey
 import argparse
+RELAY_Timeout_DURATION = 60
+
+
+
+
 
 async def send_message(host,messages):
   uri = "wss://{}".format(host)
