@@ -12,7 +12,7 @@ client:
 ["EVENT", <event JSON >] :
 
 {
-  "id": <32-bytes lowercase hex-encoded sha256 of the serialized event data>
+  "id": <32-bytes lowercase hex-encoded sha256 of the serialized event data>,
   "pubkey": <32-bytes lowercase hex-encoded public key of the event creator>,
   "created_at": <unix timestamp in seconds>,
   "kind": <integer>,
@@ -25,4 +25,20 @@ client:
   "sig": <64-bytes hex of the signature of the sha256 hash of the serialized event data, which is the same as the "id" field>
  }
 ```
+simply as -
+
+```
+["EVENT", <event JSON >] :
+
+{
+  "id": ...,
+  "pubkey": ...,
+  "created_at": ...,
+  "kind": 1,
+  "tags": [],
+  "content": "First try nostr-python OK !",
+  "sig": ...
+ }
+```
+
 3. Disconnect
