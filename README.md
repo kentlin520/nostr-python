@@ -45,7 +45,7 @@ simplied as -
 3. Disconnect
 
 
-Ref:
+Ref:  
 https://github.com/nostr-protocol/nostr  
 https://snyk.io/advisor/npm-package/nostr-tools@0.5.0  
 https://github.com/jeffthibault/python-nostr  
