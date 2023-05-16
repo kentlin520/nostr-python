@@ -46,4 +46,7 @@ simplied as -
 
 
 Ref:
-https://snyk.io/advisor/npm-package/nostr-tools@0.5.0
+https://github.com/nostr-protocol/nostr  
+https://snyk.io/advisor/npm-package/nostr-tools@0.5.0  
+https://github.com/jeffthibault/python-nostr  
+https://www.nostr.net/  
