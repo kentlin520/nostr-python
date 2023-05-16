@@ -6,6 +6,7 @@ client:
 1. Connect to relay -  
   websockets :  https://relay.nekolicio.us/
   nostr-watcher : https://relay.nekolicio.us/watcher/
+  usage at terminal : python3 client-sender.py --host relay.nekolicio.us/ --message "Hi !"
   
 2. Send event (ref protocol)- in json
 ```
